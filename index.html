@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        
+<script type="module">
+import init, * as bindings from '/ashmaize-webdemo-29500a719ad0e57f.js';
+const wasm = await init({ module_or_path: '/ashmaize-webdemo-29500a719ad0e57f_bg.wasm' });
+
+
+window.wasmBindings = bindings;
+
+
+dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
+
+</script>
+        <link rel="icon" href="/favicon-e9cbd8f50cc65bf2.ico" integrity="sha384-YobgLXwtz0GhXVUTHml49p32guapVFlEG8UpQdDVN3kekOqkQi+qSXEpwp+yM4BW"/>
+        <link rel="stylesheet" href="/input-95fc0c77e63ec2e5.css" integrity="sha384-j+zsrZgavkvU2HgqB6iWtPcbMIoY7JnK9gHeKrIXYaaqaFqbmsrSL/tBrKwA/lJO"/>
+    <link rel="modulepreload" href="/ashmaize-webdemo-29500a719ad0e57f.js" crossorigin="anonymous" integrity="sha384-52+E/Y95+2itU7L1nMJMuSuc2lkBmu1UB0oF+d2ws/C6DJhKlCHribXdJlaxOF3v"><link rel="preload" href="/ashmaize-webdemo-29500a719ad0e57f_bg.wasm" crossorigin="anonymous" integrity="sha384-Jq0Vg8eeoGidoe1C6KhGvneJ+H7jrK/3i0TYG/xbuPSfnSAj0GUmVnxXlMe+pkqG" as="fetch" type="application/wasm"></head>
+
+    <body></body>
+</html>
